@@ -17,3 +17,5 @@ influenced only by gravity and bounces off of an arbitrarily oriented “ground�
 Each particle should “die” after its random lifetime has elapsed.
 
 Entry points for all programs can be found in their respective Main.cpp. Enjoy!
+
+![Image](https://github.com/cgikoray/Turtle-Rock/blob/main/Images/KDTree.PNG)
