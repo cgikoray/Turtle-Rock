@@ -3,3 +3,15 @@
 ################################################################################
 
 /.vs
+/Debug
+/Release
+/LinkedList/Debug
+/LinkedList/Release
+/NearestNeighbor/Debug
+/NearestNeighbor/Release
+/Particles/Debug
+/Particles/Release
+/Shared/Debug
+/Shared/Release
+/VectorReflection/Debug
+/VectorReflection/Release

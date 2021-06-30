@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31423.177
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinkedList", "LinkedList\LinkedList.vcxproj", "{96EE8897-F00F-4E05-B47A-D99AA5191795}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2CFFA26C-7AB2-40B4-B7C0-B62E35D6CEA3} = {2CFFA26C-7AB2-40B4-B7C0-B62E35D6CEA3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shared", "Shared\Shared.vcxproj", "{2CFFA26C-7AB2-40B4-B7C0-B62E35D6CEA3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VectorReflection", "VectorReflection\VectorReflection.vcxproj", "{390FD8A0-61E1-466D-A635-383B3FA7D0DD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2CFFA26C-7AB2-40B4-B7C0-B62E35D6CEA3} = {2CFFA26C-7AB2-40B4-B7C0-B62E35D6CEA3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NearestNeighbor", "NearestNeighbor\NearestNeighbor.vcxproj", "{738D3F10-D81A-4BFB-99B8-E86893325E0C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2CFFA26C-7AB2-40B4-B7C0-B62E35D6CEA3} = {2CFFA26C-7AB2-40B4-B7C0-B62E35D6CEA3}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Executables", "Executables", "{E2E6F7F9-281E-4127-9949-414961B2AA41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{24920517-586E-48D0-AA08-B923F60D4FE2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Particles", "Particles\Particles.vcxproj", "{1A8A24AC-7E73-4C8F-B2E0-E7B3738A9E5B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2CFFA26C-7AB2-40B4-B7C0-B62E35D6CEA3} = {2CFFA26C-7AB2-40B4-B7C0-B62E35D6CEA3}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96EE8897-F00F-4E05-B47A-D99AA5191795}.Debug|Win32.ActiveCfg = Debug|Win32
+		{96EE8897-F00F-4E05-B47A-D99AA5191795}.Debug|Win32.Build.0 = Debug|Win32
+		{96EE8897-F00F-4E05-B47A-D99AA5191795}.Release|Win32.ActiveCfg = Release|Win32
+		{96EE8897-F00F-4E05-B47A-D99AA5191795}.Release|Win32.Build.0 = Release|Win32
+		{2CFFA26C-7AB2-40B4-B7C0-B62E35D6CEA3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2CFFA26C-7AB2-40B4-B7C0-B62E35D6CEA3}.Debug|Win32.Build.0 = Debug|Win32
+		{2CFFA26C-7AB2-40B4-B7C0-B62E35D6CEA3}.Release|Win32.ActiveCfg = Release|Win32
+		{2CFFA26C-7AB2-40B4-B7C0-B62E35D6CEA3}.Release|Win32.Build.0 = Release|Win32
+		{390FD8A0-61E1-466D-A635-383B3FA7D0DD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{390FD8A0-61E1-466D-A635-383B3FA7D0DD}.Debug|Win32.Build.0 = Debug|Win32
+		{390FD8A0-61E1-466D-A635-383B3FA7D0DD}.Release|Win32.ActiveCfg = Release|Win32
+		{390FD8A0-61E1-466D-A635-383B3FA7D0DD}.Release|Win32.Build.0 = Release|Win32
+		{738D3F10-D81A-4BFB-99B8-E86893325E0C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{738D3F10-D81A-4BFB-99B8-E86893325E0C}.Debug|Win32.Build.0 = Debug|Win32
+		{738D3F10-D81A-4BFB-99B8-E86893325E0C}.Release|Win32.ActiveCfg = Release|Win32
+		{738D3F10-D81A-4BFB-99B8-E86893325E0C}.Release|Win32.Build.0 = Release|Win32
+		{1A8A24AC-7E73-4C8F-B2E0-E7B3738A9E5B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1A8A24AC-7E73-4C8F-B2E0-E7B3738A9E5B}.Debug|Win32.Build.0 = Debug|Win32
+		{1A8A24AC-7E73-4C8F-B2E0-E7B3738A9E5B}.Release|Win32.ActiveCfg = Release|Win32
+		{1A8A24AC-7E73-4C8F-B2E0-E7B3738A9E5B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{96EE8897-F00F-4E05-B47A-D99AA5191795} = {E2E6F7F9-281E-4127-9949-414961B2AA41}
+		{2CFFA26C-7AB2-40B4-B7C0-B62E35D6CEA3} = {24920517-586E-48D0-AA08-B923F60D4FE2}
+		{390FD8A0-61E1-466D-A635-383B3FA7D0DD} = {E2E6F7F9-281E-4127-9949-414961B2AA41}
+		{738D3F10-D81A-4BFB-99B8-E86893325E0C} = {E2E6F7F9-281E-4127-9949-414961B2AA41}
+		{1A8A24AC-7E73-4C8F-B2E0-E7B3738A9E5B} = {E2E6F7F9-281E-4127-9949-414961B2AA41}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E13A857-70B6-4250-B96B-C2BA6A9F89AD}
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal
